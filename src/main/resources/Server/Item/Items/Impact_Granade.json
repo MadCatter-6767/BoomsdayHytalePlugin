@@ -9,7 +9,7 @@
   "Interactions": {
     "Primary": {
       "Interactions": [
-        "Bomb_Throw_Popberry"
+        "Bomb_Throw_Impact"
       ]
     }
   },
@@ -42,25 +42,26 @@
     "OutputQuantity": 2
   },
   "IconProperties": {
-    "Scale": 0.87,
+    "Scale": 2.3,
     "Rotation": [
-      0,
+      25,
       328,
       331
     ],
     "Translation": [
-      -4,
-      -4
+      -2,
+      -6
     ]
   },
-  "Model": "Items/Projectiles/Popberry_Bomb.blockymodel",
-  "Texture": "Items/Projectiles/Popberry_Bomb_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Bomb_Popberry.png",
+  "Model": "Items/ImpactGrenade.blockymodel",
+  "Texture": "BlockTextures/impact_grenade.png",
+  "Icon": "Icons/ItemsGenerated/Impact_Granade.png",
   "Particles": [
     {
       "SystemId": "Fuse_Bomb",
       "TargetNodeName": "Fuse_Lit",
-      "TargetEntityPart": "PrimaryItem"
+      "TargetEntityPart": "PrimaryItem",
+      "Color": "#000000"
     }
   ],
   "MaxStack": 10,
@@ -68,5 +69,6 @@
     "Compatible": false
   },
   "Weapon": {},
-  "Quality": "Uncommon"
+  "Quality": "Uncommon",
+  "Scale": 1.5
 }

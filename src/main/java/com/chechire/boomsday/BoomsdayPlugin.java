@@ -14,7 +14,6 @@ public class BoomsdayPlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
-        this.getCommandRegistry().registerCommand(new TestCommand("Test!"));
         this.getCommandRegistry().registerCommand(new ExampleCommand(this.getName(), this.getManifest().getVersion().toString()));
     }
 }

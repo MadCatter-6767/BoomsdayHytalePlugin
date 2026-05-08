@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Bomb_Popberry.name"
+    "Name": "server.items.Impact_Granade.name"
   },
   "Categories": [
     "Items.Weapons"
@@ -42,9 +42,9 @@
     "OutputQuantity": 2
   },
   "IconProperties": {
-    "Scale": 2.3,
+    "Scale": 2.5,
     "Rotation": [
-      25,
+      29,
       328,
       331
     ],
@@ -54,7 +54,7 @@
     ]
   },
   "Model": "Items/ImpactGrenade.blockymodel",
-  "Texture": "BlockTextures/impact_grenade.png",
+  "Texture": "Items/impact_grenade.png",
   "Icon": "Icons/ItemsGenerated/Impact_Granade.png",
   "Particles": [
     {
@@ -70,5 +70,5 @@
   },
   "Weapon": {},
   "Quality": "Uncommon",
-  "Scale": 1.5
+  "Scale": 2.5
 }

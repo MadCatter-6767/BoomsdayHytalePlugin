@@ -1,0 +1,17 @@
+{
+  "Appearance": "Impact_Grenade_Moddel_Asset",
+  "TimeToLive": 3,
+  "ExplosionConfig": {
+    "DamageEntities": true,
+    "DamageBlocks": true,
+    "BlockDamageRadius": 4,
+    "BlockDropChance": 100,
+    "EntityDamageRadius": 5,
+    "EntityDamage": 10,
+    "Knockback": {
+      "Force": 1
+    }
+  },
+  "Damage": 0,
+  "Bounciness": 0
+}
